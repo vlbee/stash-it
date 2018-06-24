@@ -1,8 +1,20 @@
-## macOS files
+# Mac file caches #
 .DS_Store
 
-## directories
-node_modules/
+
+# Editor Settings #
+.vscode/
+
+
+# Development folders and files #
 .cache/
 dist/
+node_modules/
+coverage/
 
+
+# Log files & folders #
+logs/
+*.log
+npm-debug.log*
+.npm

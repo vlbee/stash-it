@@ -1,17 +1,25 @@
 {
-  "name": "react-parcel-boilerplate",
+  "name": "react-jest-postcss-parcel-boilerplate",
   "version": "1.0.0",
-  "main": "index.js",
-  "author": "",
+  "main": "src/index.js",
+  "author": "vlbee",
   "license": "ISC",
   "keywords": [],
-  "description": "",
+  "description": "minimal React boilerplate with Jest, PostCSS and Parcel bundler",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "start": "parcel public/index.html",
-    "build": "parcel build public/index.html --out-dir build --public-url ./build/"
+    "start": "parcel public/index.html --no-cache",
+    "build": "parcel build public/index.html --public-url ./"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "dependencies": {
+    "autoprefixer": "^8.6.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
@@ -25,16 +33,13 @@
     "eslint-plugin-react": "^7.9.1",
     "jest": "^23.1.0",
     "parcel-bundler": "^1.9.2",
+    "pre-commit": "^1.2.2",
     "react-testing-library": "^4.0.1"
-  },
-  "dependencies": {
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1"
   },
   "jest": {
     "moduleNameMapper": {
-      "\\.(css|less|sass|scss)$": "<rootDir>/__mocks__/styleMock.js",
-      "\\.(gif|ttf|eot|svg)$": "<rootDir>/__mocks__/fileMock.js"
+      "\\.(css|less|styl|sass|scss)$": "<rootDir>/__mocks__/styleMock.js",
+      "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js"
     }
   }
 }
