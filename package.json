@@ -10,8 +10,8 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "start": "parcel public/index.html --no-cache",
-    "build": "parcel build public/index.html --public-url ./"
+    "start": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html --public-url ./"
   },
   "pre-commit": [
     "test"
