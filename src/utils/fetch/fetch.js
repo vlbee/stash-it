@@ -1,7 +1,6 @@
 const checkFetchResponse = res => {
   if (res.status === 200) {
-    let result = res[0].json();
-    console.log(result[1])
+    let result = res.json();
     return result;
   } else {
     console.error(
@@ -10,7 +9,7 @@ const checkFetchResponse = res => {
   }
 };
 
-export const fetchRequest = query => {
+export const fetchRequest = (query = 'stashpoints') => {
   const url = `https://api-staging.stasher.com/v1/${query}`;
   return fetch(url)
     .then(checkFetchResponse)
