@@ -5,9 +5,6 @@
 # Editor Settings #
 .vscode/
 
-# API tokens #
-token.js
-
 # Development folders and files #
 .cache/
 dist/

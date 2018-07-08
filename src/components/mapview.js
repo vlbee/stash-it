@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 import ErrorBoundary from './errorBoundary'
-import { token } from './token'
+import { token } from '../token'
 
 const mapboxURL = `https://api.tiles.mapbox.com/v4/mapbox.light/{z}/{x}/{y}@2x.png?access_token=${token}`
 const position = [51.505, -0.09]
