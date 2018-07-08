@@ -32,6 +32,7 @@
     "eslint-config-recommended": "^3.0.0",
     "eslint-plugin-react": "^7.9.1",
     "jest": "^23.1.0",
+    "jest-fetch-mock": "^1.6.5",
     "parcel-bundler": "^1.9.2",
     "pre-commit": "^1.2.2",
     "react-testing-library": "^4.0.1"
@@ -40,6 +41,10 @@
     "moduleNameMapper": {
       "\\.(css|less|styl|sass|scss)$": "<rootDir>/__mocks__/styleMock.js",
       "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "<rootDir>/__mocks__/fileMock.js"
-    }
+    },
+    "automock": false,
+    "setupFiles": [
+      "./setupJest.js"
+    ]
   }
 }
