@@ -7,8 +7,8 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      lat: '',
-      long: '',
+      lat: 43.505,
+      long: -75.09,
       by_distance: false,
       open_late: false,
       twentyfour_seven: false
@@ -30,7 +30,7 @@ class App extends Component {
     return (
       <div className="app">
         <h1>Find It, Stash It</h1>
-        <Mapview></Mapview>
+        <Mapview lat={this.state.lat} long={this.state.long}></Mapview>
       </div>
     )
   }

@@ -15,12 +15,12 @@ class Mapview extends Component {
   render() {
     return (
       <div>
-        <Map ref="map" center={[51.505, -0.09]} zoom={3} className="map">
+        <Map ref="map" center={[this.props.lat, this.props.long]} zoom={3} className="map">
           <TileLayer
             url={mapboxURL}
             attribution='&copy; <a href="https://www.mapbox.com/about/maps/">Mapbox</a> &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>'
           />
-          <Marker position={position}>
+          <Marker position={[this.props.lat, this.props.long]}>
             <Popup>A pretty CSS3 popup.<br />Easily customizable.</Popup>
           </Marker>
         </Map>
