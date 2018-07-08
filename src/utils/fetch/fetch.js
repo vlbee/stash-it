@@ -9,9 +9,16 @@ const checkFetchResponse = res => {
   }
 };
 
-export const fetchRequest = (query = 'stashpoints') => {
-  const url = `https://api-staging.stasher.com/v1/${query}`;
-  return fetch(url)
+export const fetchRequest = (params = {}) => {
+  const url = new URL(`https://api-staging.stasher.com/v1/stashpoints`);
+  Object.keys(params).forEach(key => url.searchParams.append(key, params[key]))
+
+  return fetch(url.toString(), {
+    method: 'get',
+    headers: {
+      'Accept': 'application/json'
+    }
+  })
     .then(checkFetchResponse)
     .catch(err => {
       throw new Error(`Fetch request failed: ${err}`);
