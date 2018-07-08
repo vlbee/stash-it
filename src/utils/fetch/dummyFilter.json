@@ -1,0 +1,1993 @@
+[
+  {
+    "id": "36a5762b9ee5",
+    "created": "2018-03-16T01:04:41.285646Z",
+    "type": "other",
+    "status": "inactive",
+    "name": "the Melville Hotel",
+    "location_name": "King's Cross St Pancras",
+    "description": "Open 24/7",
+    "host_id": "4d54791c6bc5",
+    "rating": 1,
+    "rating_count": 1,
+    "featured": false,
+    "latitude": 51.52877,
+    "longitude": -0.122425,
+    "address": "38-39 Argyle Square, London",
+    "postal_code": "WC1H",
+    "country": "GBR",
+    "photos": [
+      "https://www.citystasher.com/albums/images/listings/1490722519_1_0.jpg",
+      "https://www.citystasher.com/albums/images/listings/1490722519_1_1.jpg",
+      "https://www.citystasher.com/albums/images/listings/1490722519_1_2.jpg"
+    ],
+    "capacity": 99,
+    "opening_hours": [
+      {
+        "day": 1,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 4,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 0,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 3,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 2,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 5,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 6,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      }
+    ],
+    "opening_hours_exceptions": [
+      {
+        "type": "closed",
+        "date": "2018-03-31",
+        "start_time": "00:00:00",
+        "end_time": "00:00:00"
+      },
+      {
+        "type": "closed",
+        "date": "2018-03-30",
+        "start_time": "00:00:00",
+        "end_time": "00:00:00"
+      },
+      {
+        "type": "closed",
+        "date": "2018-04-01",
+        "start_time": "00:00:00",
+        "end_time": "00:00:00"
+      },
+      {
+        "type": "closed",
+        "date": "2018-04-02",
+        "start_time": "00:00:00",
+        "end_time": "00:00:00"
+      }
+    ],
+    "storage_forbidden_out_of_hours": false,
+    "open_twentyfour_seven": true,
+    "open_late": true,
+    "pricing_structure": {
+      "ccy": "GBP",
+      "extra_day_cost": 500,
+      "first_day_cost": 600
+    },
+    "contact": {
+      "name": "hotelmelvillelondon hotelmelvillelondon",
+      "email": null,
+      "lang": "en",
+      "phone_number": "+"
+    },
+    "views_last_30_days": 20,
+    "feefo_sku": "18075",
+    "nearest_city": {
+      "id": 160,
+      "name": "london",
+      "centre": {
+        "latitude": 51.5073509,
+        "longitude": -0.1277583
+      },
+      "northeast": {
+        "latitude": 51.6723432,
+        "longitude": 0.148271
+      },
+      "southwest": {
+        "latitude": 51.3849401,
+        "longitude": -0.3514683
+      }
+    }
+  },
+  {
+    "id": "1f163a3aab61",
+    "created": "2018-03-16T01:04:41.285444Z",
+    "type": "other",
+    "status": "active",
+    "name": "Hanover Hotel",
+    "location_name": "Victoria",
+    "description": "Store your luggage at the Hanover Hotel, under 5 minutes from Victoria rail station and Victoria coach station. Perfect if you're arriving into London from Gatwick or by coach, or if you're travelling out later that day. The hotel is open 24/7 so you can drop your bags any time.\n <br/><br/>\n <b>Opening Hours</b>\n Open all hours! 24 hours a day, 7 days a week",
+    "host_id": "2e4cc797d00c",
+    "rating": 4.9,
+    "rating_count": 120,
+    "featured": false,
+    "latitude": 51.490856,
+    "longitude": -0.143413,
+    "address": "30 St George's Drive, Pimlico, Victoria, London",
+    "postal_code": "SW1V 4BN",
+    "country": "GBR",
+    "photos": [
+      "https://www.citystasher.com/albums/images/listings/2_citystasher_victoria_stashpoint_left_luggage_at_hanover_hotel_1.jpg",
+      "https://www.citystasher.com/albums/images/listings/2_citystasher_victoria_stashpoint_left_luggage_at_hanover_hotel_2.jpg",
+      "https://www.citystasher.com/albums/images/listings/2_citystasher_victoria_stashpoint_left_luggage_at_hanover_hotel_3.jpg"
+    ],
+    "capacity": 99,
+    "opening_hours": [
+      {
+        "day": 6,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 0,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 1,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 2,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 5,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 3,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 4,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      }
+    ],
+    "opening_hours_exceptions": [],
+    "storage_forbidden_out_of_hours": false,
+    "open_twentyfour_seven": true,
+    "open_late": true,
+    "pricing_structure": {
+      "ccy": "GBP",
+      "extra_day_cost": 500,
+      "first_day_cost": 600
+    },
+    "contact": {
+      "name": "sanchitpatel sanchitpatel",
+      "email": null,
+      "lang": "en",
+      "phone_number": "02078340367"
+    },
+    "views_last_30_days": 1081,
+    "feefo_sku": "6828",
+    "nearest_city": {
+      "id": 160,
+      "name": "london",
+      "centre": {
+        "latitude": 51.5073509,
+        "longitude": -0.1277583
+      },
+      "northeast": {
+        "latitude": 51.6723432,
+        "longitude": 0.148271
+      },
+      "southwest": {
+        "latitude": 51.3849401,
+        "longitude": -0.3514683
+      }
+    }
+  },
+  {
+    "id": "a4828bf96106",
+    "created": "2018-05-14T14:04:55.757358Z",
+    "type": "other",
+    "status": "active",
+    "name": "Park Villa Boutique Hostel",
+    "location_name": "Mile End/Victoria Park",
+    "description": null,
+    "host_id": "d724c3ffcb9b",
+    "rating": null,
+    "rating_count": 0,
+    "featured": true,
+    "latitude": 51.527228,
+    "longitude": -0.036873,
+    "address": "51 Grove Road, London",
+    "postal_code": "E3 4PE",
+    "country": "GBR",
+    "photos": [
+      "https://s3.eu-west-2.amazonaws.com/stasherimages/v3_images/IMG_8687.JPG"
+    ],
+    "capacity": 20,
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 4,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 1,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 2,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 6,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 3,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 5,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      }
+    ],
+    "opening_hours_exceptions": [],
+    "storage_forbidden_out_of_hours": false,
+    "open_twentyfour_seven": true,
+    "open_late": true,
+    "pricing_structure": {
+      "ccy": "GBP",
+      "extra_day_cost": 500,
+      "first_day_cost": 600
+    },
+    "contact": {
+      "name": "Zaeem Maqsood",
+      "email": null,
+      "lang": "en",
+      "phone_number": "02089801439"
+    },
+    "views_last_30_days": 1278,
+    "feefo_sku": "a4828bf96106",
+    "nearest_city": {
+      "id": 160,
+      "name": "london",
+      "centre": {
+        "latitude": 51.5073509,
+        "longitude": -0.1277583
+      },
+      "northeast": {
+        "latitude": 51.6723432,
+        "longitude": 0.148271
+      },
+      "southwest": {
+        "latitude": 51.3849401,
+        "longitude": -0.3514683
+      }
+    }
+  },
+  {
+    "id": "7c35ed03ee87",
+    "created": "2018-03-16T01:04:41.286513Z",
+    "type": "other",
+    "status": "inactive",
+    "name": "Cheshire Hotel",
+    "location_name": "Russell Square",
+    "description": "Left Luggage at Cheshire Hotel, in Russell Square. Perfect for bag storage if you are visiting The British Museum or Russell Square. 5 mins walk from Tottenham Court Road station . Save money with CityStasher - the best value storage in the UK and Europe!",
+    "host_id": "fa409954bc30",
+    "rating": 1,
+    "rating_count": 1,
+    "featured": false,
+    "latitude": 51.517506,
+    "longitude": -0.129584,
+    "address": "110 Great Russell Street, London",
+    "postal_code": "WC1B 3NA",
+    "country": "GBR",
+    "photos": [
+      "https://www.citystasher.com/albums/images/listings/1519922023_10273_0.jpg"
+    ],
+    "capacity": 10,
+    "opening_hours": [
+      {
+        "day": 3,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 0,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 1,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 2,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 4,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 5,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 6,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      }
+    ],
+    "opening_hours_exceptions": [],
+    "storage_forbidden_out_of_hours": false,
+    "open_twentyfour_seven": true,
+    "open_late": true,
+    "pricing_structure": {
+      "ccy": "GBP",
+      "extra_day_cost": 500,
+      "first_day_cost": 600
+    },
+    "contact": {
+      "name": "cheshire hotel",
+      "email": null,
+      "lang": "en",
+      "phone_number": "02076377777"
+    },
+    "views_last_30_days": 437,
+    "feefo_sku": "325",
+    "nearest_city": {
+      "id": 160,
+      "name": "london",
+      "centre": {
+        "latitude": 51.5073509,
+        "longitude": -0.1277583
+      },
+      "northeast": {
+        "latitude": 51.6723432,
+        "longitude": 0.148271
+      },
+      "southwest": {
+        "latitude": 51.3849401,
+        "longitude": -0.3514683
+      }
+    }
+  },
+  {
+    "id": "e5bbbd33c398",
+    "created": "2018-05-14T14:30:08.616597Z",
+    "type": "other",
+    "status": "active",
+    "name": "New Globe Hotel",
+    "location_name": "Mile End/Victoria Park",
+    "description": null,
+    "host_id": "65b3926e89be",
+    "rating": null,
+    "rating_count": 0,
+    "featured": true,
+    "latitude": 51.524495,
+    "longitude": -0.036799,
+    "address": "359 Mile End Road, London",
+    "postal_code": "E3 4QS",
+    "country": "GBR",
+    "photos": [
+      "https://s3.eu-west-2.amazonaws.com/stasherimages/v3_images/Screen_Shot_2018-05-10_at_14.34.46.jpg"
+    ],
+    "capacity": 50,
+    "opening_hours": [
+      {
+        "day": 3,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 5,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 4,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 2,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 1,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 0,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 6,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      }
+    ],
+    "opening_hours_exceptions": [],
+    "storage_forbidden_out_of_hours": false,
+    "open_twentyfour_seven": true,
+    "open_late": true,
+    "pricing_structure": {
+      "ccy": "GBP",
+      "extra_day_cost": 500,
+      "first_day_cost": 600
+    },
+    "contact": {
+      "name": "Jay Islam",
+      "email": null,
+      "lang": "en",
+      "phone_number": "07863123059"
+    },
+    "views_last_30_days": 991,
+    "feefo_sku": "e5bbbd33c398",
+    "nearest_city": {
+      "id": 160,
+      "name": "london",
+      "centre": {
+        "latitude": 51.5073509,
+        "longitude": -0.1277583
+      },
+      "northeast": {
+        "latitude": 51.6723432,
+        "longitude": 0.148271
+      },
+      "southwest": {
+        "latitude": 51.3849401,
+        "longitude": -0.3514683
+      }
+    }
+  },
+  {
+    "id": "4b6e65a0d4c0",
+    "created": "2018-03-16T01:04:41.285952Z",
+    "type": "other",
+    "status": "active",
+    "name": "Krystals Express",
+    "location_name": "London Bridge",
+    "description": "Left Luggage at Krystal's express, on 210 Tower Bridge Road. Perfect for storage if you are visiting Tower Bridge or Tower of London. 8 mins walk from Bermondsey tube station or London Bridge. Save money with CityStasher - the best value storage in the UK!",
+    "host_id": "cbad74cc8f83",
+    "rating": 3.5,
+    "rating_count": 6,
+    "featured": false,
+    "latitude": 51.502979,
+    "longitude": -0.076834,
+    "address": "210 Tower Bridge Road, London",
+    "postal_code": "SE1 2UP",
+    "country": "GBR",
+    "photos": [
+      "https://www.citystasher.com/albums/images/listings/1507907382_1_0.jpeg"
+    ],
+    "capacity": 20,
+    "opening_hours": [
+      {
+        "day": 6,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 1,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 2,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 0,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 3,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 4,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 5,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      }
+    ],
+    "opening_hours_exceptions": [],
+    "storage_forbidden_out_of_hours": false,
+    "open_twentyfour_seven": true,
+    "open_late": true,
+    "pricing_structure": {
+      "ccy": "GBP",
+      "extra_day_cost": 500,
+      "first_day_cost": 600
+    },
+    "contact": {
+      "name": "JAVEHD AKHTAR",
+      "email": null,
+      "lang": "en",
+      "phone_number": "+"
+    },
+    "views_last_30_days": 394,
+    "feefo_sku": "158",
+    "nearest_city": {
+      "id": 160,
+      "name": "london",
+      "centre": {
+        "latitude": 51.5073509,
+        "longitude": -0.1277583
+      },
+      "northeast": {
+        "latitude": 51.6723432,
+        "longitude": 0.148271
+      },
+      "southwest": {
+        "latitude": 51.3849401,
+        "longitude": -0.3514683
+      }
+    }
+  },
+  {
+    "id": "61839fbfc1c9",
+    "created": "2018-03-16T01:04:41.285706Z",
+    "type": "other",
+    "status": "active",
+    "name": "Docklands Lodge",
+    "location_name": "Poplar / Canary Wharf",
+    "description": "Store your luggage in Poplar at Docklands Lodge. This lovely new hotel can securely store your bags while you enjoy Canary Wharf, views of the O2 and the Isle of Dogs at the iconic bend in the Thames.",
+    "host_id": "2f05449d547c",
+    "rating": 5,
+    "rating_count": 7,
+    "featured": false,
+    "latitude": 51.508606,
+    "longitude": -0.010951,
+    "address": "244 Poplar High St, Poplar, London",
+    "postal_code": "E14 0BB",
+    "country": "GBR",
+    "photos": [
+      "https://www.citystasher.com/albums/images/listings/80_citystasher_poplar_canary_wharf_stashpoint_left_luggage_at_docklands_lodge_0.jpg",
+      "https://www.citystasher.com/albums/images/listings/80_citystasher_poplar_canary_wharf_stashpoint_left_luggage_at_docklands_lodge_1.jpg",
+      "https://www.citystasher.com/albums/images/listings/80_citystasher_poplar_canary_wharf_stashpoint_left_luggage_at_docklands_lodge_2.jpg"
+    ],
+    "capacity": 99,
+    "opening_hours": [
+      {
+        "day": 6,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 2,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 4,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 5,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 3,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 1,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 0,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      }
+    ],
+    "opening_hours_exceptions": [],
+    "storage_forbidden_out_of_hours": false,
+    "open_twentyfour_seven": true,
+    "open_late": true,
+    "pricing_structure": {
+      "ccy": "GBP",
+      "extra_day_cost": 500,
+      "first_day_cost": 600
+    },
+    "contact": {
+      "name": "docklandslodge docklandslodge",
+      "email": null,
+      "lang": "en",
+      "phone_number": "07590559519"
+    },
+    "views_last_30_days": 268,
+    "feefo_sku": "21411",
+    "nearest_city": {
+      "id": 160,
+      "name": "london",
+      "centre": {
+        "latitude": 51.5073509,
+        "longitude": -0.1277583
+      },
+      "northeast": {
+        "latitude": 51.6723432,
+        "longitude": 0.148271
+      },
+      "southwest": {
+        "latitude": 51.3849401,
+        "longitude": -0.3514683
+      }
+    }
+  },
+  {
+    "id": "795a1f24290d",
+    "created": "2018-03-16T01:04:41.285492Z",
+    "type": "other",
+    "status": "active",
+    "name": "S.T. Food & Wine",
+    "location_name": "Highbury & Islington",
+    "description": "Store your bags in Highbury & Islington at S.T. Food and Wine. This store has a large secure basement and is open 24/7. Perfect for a visit to the Emirates Stadium or if you're watching Arsenal matches. \n \n Opening Hours\n 24 hours a day, 7 days a week",
+    "host_id": "bd7c925ce3f6",
+    "rating": 4,
+    "rating_count": 10,
+    "featured": false,
+    "latitude": 51.546249,
+    "longitude": -0.102164,
+    "address": "308 St Paul's Road, London",
+    "postal_code": "N1 2LF",
+    "country": "GBR",
+    "photos": [
+      "https://www.citystasher.com/albums/images/listings/15_citystasher_highbury_islington_stashpoint_left_luggage_at_st_food_wine_0.jpg",
+      "https://www.citystasher.com/albums/images/listings/15_citystasher_highbury_islington_stashpoint_left_luggage_at_st_food_wine_1.jpg",
+      "https://www.citystasher.com/albums/images/listings/15_citystasher_highbury_islington_stashpoint_left_luggage_at_st_food_wine_2.jpg"
+    ],
+    "capacity": 99,
+    "opening_hours": [
+      {
+        "day": 2,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 0,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 5,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 6,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 4,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 3,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 1,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      }
+    ],
+    "opening_hours_exceptions": [],
+    "storage_forbidden_out_of_hours": false,
+    "open_twentyfour_seven": true,
+    "open_late": true,
+    "pricing_structure": {
+      "ccy": "GBP",
+      "extra_day_cost": 500,
+      "first_day_cost": 600
+    },
+    "contact": {
+      "name": "kamrankhan kamrankhan",
+      "email": null,
+      "lang": "en",
+      "phone_number": "07710789631"
+    },
+    "views_last_30_days": 254,
+    "feefo_sku": "13517",
+    "nearest_city": {
+      "id": 160,
+      "name": "london",
+      "centre": {
+        "latitude": 51.5073509,
+        "longitude": -0.1277583
+      },
+      "northeast": {
+        "latitude": 51.6723432,
+        "longitude": 0.148271
+      },
+      "southwest": {
+        "latitude": 51.3849401,
+        "longitude": -0.3514683
+      }
+    }
+  },
+  {
+    "id": "7efca9bb2be6",
+    "created": "2018-03-16T01:04:41.285755Z",
+    "type": "other",
+    "status": "active",
+    "name": "Southfields Food & Wine",
+    "location_name": "Wimbledon / Southfields",
+    "description": "Left Luggage at Southfields Food & Wine. This is the official CityStasher StashPoint for bag storage during Wimbledon. Open 24/7 makes this site perfect for early drop offs and late pick ups. Surge pricing applies during the tennis tournament (£6 per bag).",
+    "host_id": "bc5cd2cc0298",
+    "rating": 3.8,
+    "rating_count": 4,
+    "featured": false,
+    "latitude": 51.444618,
+    "longitude": -0.205564,
+    "address": "10-12 Replingham Road, Southfields, London",
+    "postal_code": "SW18 5LS",
+    "country": "GBR",
+    "photos": [
+      "https://www.citystasher.com/albums/images/listings/101_citystasher_wimbledon_southfields_stashpoint_left_luggage_at_southfields_food_wine_0.jpg",
+      "https://www.citystasher.com/albums/images/listings/101_citystasher_wimbledon_southfields_stashpoint_left_luggage_at_southfields_food_wine_1.jpg",
+      "https://www.citystasher.com/albums/images/listings/101_citystasher_wimbledon_southfields_stashpoint_left_luggage_at_southfields_food_wine_2.jpg"
+    ],
+    "capacity": 99,
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 1,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 2,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 3,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 4,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 5,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 6,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      }
+    ],
+    "opening_hours_exceptions": [
+      {
+        "type": "closed",
+        "date": "2018-05-07",
+        "start_time": "00:00:00",
+        "end_time": "00:00:00"
+      },
+      {
+        "type": "closed",
+        "date": "2018-05-28",
+        "start_time": "00:00:00",
+        "end_time": "00:00:00"
+      },
+      {
+        "type": "closed",
+        "date": "2018-03-30",
+        "start_time": "00:00:00",
+        "end_time": "00:00:00"
+      },
+      {
+        "type": "closed",
+        "date": "2018-04-02",
+        "start_time": "00:00:00",
+        "end_time": "00:00:00"
+      },
+      {
+        "type": "closed",
+        "date": "2018-04-01",
+        "start_time": "00:00:00",
+        "end_time": "00:00:00"
+      },
+      {
+        "type": "closed",
+        "date": "2018-03-31",
+        "start_time": "00:00:00",
+        "end_time": "00:00:00"
+      }
+    ],
+    "storage_forbidden_out_of_hours": false,
+    "open_twentyfour_seven": true,
+    "open_late": true,
+    "pricing_structure": {
+      "ccy": "GBP",
+      "extra_day_cost": 600,
+      "first_day_cost": 600
+    },
+    "contact": {
+      "name": "Shandip Patel",
+      "email": null,
+      "lang": "en",
+      "phone_number": "02088709939"
+    },
+    "views_last_30_days": 29,
+    "feefo_sku": "101",
+    "nearest_city": {
+      "id": 160,
+      "name": "london",
+      "centre": {
+        "latitude": 51.5073509,
+        "longitude": -0.1277583
+      },
+      "northeast": {
+        "latitude": 51.6723432,
+        "longitude": 0.148271
+      },
+      "southwest": {
+        "latitude": 51.3849401,
+        "longitude": -0.3514683
+      }
+    }
+  },
+  {
+    "id": "963c304f8421",
+    "created": "2018-03-16T01:04:41.285522Z",
+    "type": "other",
+    "status": "active",
+    "name": "the Belgrave Hotel",
+    "location_name": "Vauxhall / Oval",
+    "description": "Store your luggage in Oval at the Belgrave Hotel. Perfect for a visit to the Kia Oval cricket ground, or for a visit to any of this area's charming pubs! Under 15 minutes walk from Vauxhall station. \n \n Opening Hours\n Open all hours! 24 hours a day, 7 days a week",
+    "host_id": "36bff3eb9644",
+    "rating": 4.7,
+    "rating_count": 3,
+    "featured": false,
+    "latitude": 51.48074,
+    "longitude": -0.113523,
+    "address": "9 Clapham Road Oval, London",
+    "postal_code": "SW9 0JD",
+    "country": "GBR",
+    "photos": [
+      "https://www.citystasher.com/albums/images/listings/25_citystasher_vauxhall_oval_stashpoint_left_luggage_at_the_belgrave_hotel_0.jpg",
+      "https://www.citystasher.com/albums/images/listings/25_citystasher_vauxhall_oval_stashpoint_left_luggage_at_the_belgrave_hotel_1.jpg",
+      "https://www.citystasher.com/albums/images/listings/25_citystasher_vauxhall_oval_stashpoint_left_luggage_at_the_belgrave_hotel_2.jpg",
+      "https://www.citystasher.com/albums/images/listings/25_citystasher_vauxhall_oval_stashpoint_left_luggage_at_the_belgrave_hotel_3.jpg"
+    ],
+    "capacity": 99,
+    "opening_hours": [
+      {
+        "day": 5,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 2,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 6,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 0,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 1,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 3,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 4,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      }
+    ],
+    "opening_hours_exceptions": [],
+    "storage_forbidden_out_of_hours": false,
+    "open_twentyfour_seven": true,
+    "open_late": true,
+    "pricing_structure": {
+      "ccy": "GBP",
+      "extra_day_cost": 500,
+      "first_day_cost": 600
+    },
+    "contact": {
+      "name": "belgravehotel belgravehotel",
+      "email": null,
+      "lang": "en",
+      "phone_number": "020 7828 8661"
+    },
+    "views_last_30_days": 193,
+    "feefo_sku": "9391",
+    "nearest_city": {
+      "id": 160,
+      "name": "london",
+      "centre": {
+        "latitude": 51.5073509,
+        "longitude": -0.1277583
+      },
+      "northeast": {
+        "latitude": 51.6723432,
+        "longitude": 0.148271
+      },
+      "southwest": {
+        "latitude": 51.3849401,
+        "longitude": -0.3514683
+      }
+    }
+  },
+  {
+    "id": "b35526e8f14c",
+    "created": "2018-03-16T01:04:41.285728Z",
+    "type": "other",
+    "status": "active",
+    "name": "Station Food and Wine",
+    "location_name": "Edgware Road",
+    "description": "Store your bags at Edgware Road with the best value luggage storage in London now available at Station Food and Wine. This location is ideal for visitors from Paddington or the Heathrow Express (under 10 mins walk). It is 1 minute from Edgware Road Tube station (circle, district and bakerloo lines). And it`s open 24/7 - any time of day that you need, we`ve got you covered.",
+    "host_id": "123a0aa9bfdc",
+    "rating": 3,
+    "rating_count": 2,
+    "featured": false,
+    "latitude": 51.520596,
+    "longitude": -0.170603,
+    "address": "314 Edgware Road, London",
+    "postal_code": "W2 1DY",
+    "country": "GBR",
+    "photos": [
+      "https://www.citystasher.com/albums/images/listings/93_citystasher_edgware_road_stashpoint_left_luggage_at_station_food_and_wine_0.jpg",
+      "https://www.citystasher.com/albums/images/listings/93_citystasher_edgware_road_stashpoint_left_luggage_at_station_food_and_wine_1.jpg",
+      "https://www.citystasher.com/albums/images/listings/93_citystasher_edgware_road_stashpoint_left_luggage_at_station_food_and_wine_2.jpg"
+    ],
+    "capacity": 99,
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 6,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 5,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 4,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 3,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 2,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 1,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      }
+    ],
+    "opening_hours_exceptions": [
+      {
+        "type": "closed",
+        "date": "2018-05-28",
+        "start_time": "00:00:00",
+        "end_time": "00:00:00"
+      },
+      {
+        "type": "closed",
+        "date": "2018-05-07",
+        "start_time": "00:00:00",
+        "end_time": "00:00:00"
+      }
+    ],
+    "storage_forbidden_out_of_hours": false,
+    "open_twentyfour_seven": true,
+    "open_late": true,
+    "pricing_structure": {
+      "ccy": "GBP",
+      "extra_day_cost": 500,
+      "first_day_cost": 600
+    },
+    "contact": {
+      "name": "Rhkhail Rhkhail",
+      "email": null,
+      "lang": "en",
+      "phone_number": "07817476382"
+    },
+    "views_last_30_days": 105,
+    "feefo_sku": "27147",
+    "nearest_city": {
+      "id": 160,
+      "name": "london",
+      "centre": {
+        "latitude": 51.5073509,
+        "longitude": -0.1277583
+      },
+      "northeast": {
+        "latitude": 51.6723432,
+        "longitude": 0.148271
+      },
+      "southwest": {
+        "latitude": 51.3849401,
+        "longitude": -0.3514683
+      }
+    }
+  },
+  {
+    "id": "d51d414ee71a",
+    "created": "2018-03-16T01:04:41.285745Z",
+    "type": "other",
+    "status": "active",
+    "name": "Shakespeare Hotel",
+    "location_name": "Paddington Station",
+    "description": "Left Luggage at the Shakespeare Hotel, a 2 minute walk from Paddington Station. At over 50% cheaper than station facilities and open 24 hours, this stashpoint is affordable and convenient. Norfolk Square is located right by the Padddington Station exit onto Praed Street.",
+    "host_id": "0489d8de9a95",
+    "rating": 4.9,
+    "rating_count": 97,
+    "featured": false,
+    "latitude": 51.51614,
+    "longitude": -0.173584,
+    "address": "22-28 Norfolk Square, London",
+    "postal_code": "W2 1RS",
+    "country": "GBR",
+    "photos": [
+      "https://www.citystasher.com/albums/images/listings/98_citystasher_paddington_station_stashpoint_left_luggage_at_shakespeare_hotel_0.jpg",
+      "https://www.citystasher.com/albums/images/listings/98_citystasher_paddington_station_stashpoint_left_luggage_at_shakespeare_hotel_1.jpg",
+      "https://www.citystasher.com/albums/images/listings/98_citystasher_paddington_station_stashpoint_left_luggage_at_shakespeare_hotel_2.jpg"
+    ],
+    "capacity": 99,
+    "opening_hours": [
+      {
+        "day": 6,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 5,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 2,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 1,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 0,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 4,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 3,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      }
+    ],
+    "opening_hours_exceptions": [],
+    "storage_forbidden_out_of_hours": false,
+    "open_twentyfour_seven": true,
+    "open_late": true,
+    "pricing_structure": {
+      "ccy": "GBP",
+      "extra_day_cost": 500,
+      "first_day_cost": 600
+    },
+    "contact": {
+      "name": "Nondas Douridas",
+      "email": null,
+      "lang": "en",
+      "phone_number": "02074024646"
+    },
+    "views_last_30_days": 33,
+    "feefo_sku": "98",
+    "nearest_city": {
+      "id": 160,
+      "name": "london",
+      "centre": {
+        "latitude": 51.5073509,
+        "longitude": -0.1277583
+      },
+      "northeast": {
+        "latitude": 51.6723432,
+        "longitude": 0.148271
+      },
+      "southwest": {
+        "latitude": 51.3849401,
+        "longitude": -0.3514683
+      }
+    }
+  },
+  {
+    "id": "f6f076ed7eab",
+    "created": "2018-03-16T01:04:41.285525Z",
+    "type": "other",
+    "status": "active",
+    "name": "the W14 Hotel",
+    "location_name": "Kensington",
+    "description": "Drop your bags in Kensington at the W14 hotel. Located just a minute's walk from Baron's Court or West Kensington Tube. Perfect for luggage storage on a visit to the Olympia London Exhibition Centre. Under 15 minutes walk from Earl's Court.   Opening Hours\n Open all hours! 24 hours a day, 7 days a week",
+    "host_id": "c683357933a3",
+    "rating": 4.9,
+    "rating_count": 30,
+    "featured": false,
+    "latitude": 51.491615,
+    "longitude": -0.210593,
+    "address": "16 Gunterstone Rd, London",
+    "postal_code": "W14 9BX",
+    "country": "GBR",
+    "photos": [
+      "https://www.citystasher.com/albums/images/listings/26_citystasher_kensington_stashpoint_left_luggage_at_the_w_hotel_0.jpg",
+      "https://www.citystasher.com/albums/images/listings/26_citystasher_kensington_stashpoint_left_luggage_at_the_w_hotel_1.jpg",
+      "https://www.citystasher.com/albums/images/listings/26_citystasher_kensington_stashpoint_left_luggage_at_the_w_hotel_2.jpg",
+      "https://www.citystasher.com/albums/images/listings/26_citystasher_kensington_stashpoint_left_luggage_at_the_w_hotel_3.jpg",
+      "https://www.citystasher.com/albums/images/listings/26_citystasher_kensington_stashpoint_left_luggage_at_the_w_hotel_4.jpg",
+      "https://www.citystasher.com/albums/images/listings/26_citystasher_kensington_stashpoint_left_luggage_at_the_w_hotel_5.jpg",
+      "https://www.citystasher.com/albums/images/listings/26_citystasher_kensington_stashpoint_left_luggage_at_the_w_hotel_6.jpg",
+      "https://www.citystasher.com/albums/images/listings/26_citystasher_kensington_stashpoint_left_luggage_at_the_w_hotel_7.jpg"
+    ],
+    "capacity": 99,
+    "opening_hours": [
+      {
+        "day": 3,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 4,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 2,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 1,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 6,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 5,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 0,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      }
+    ],
+    "opening_hours_exceptions": [],
+    "storage_forbidden_out_of_hours": false,
+    "open_twentyfour_seven": true,
+    "open_late": true,
+    "pricing_structure": {
+      "ccy": "GBP",
+      "extra_day_cost": 500,
+      "first_day_cost": 600
+    },
+    "contact": {
+      "name": "thew14hotel thew14hotel",
+      "email": null,
+      "lang": "en",
+      "phone_number": "0207 602 6600"
+    },
+    "views_last_30_days": 193,
+    "feefo_sku": "9387",
+    "nearest_city": {
+      "id": 160,
+      "name": "london",
+      "centre": {
+        "latitude": 51.5073509,
+        "longitude": -0.1277583
+      },
+      "northeast": {
+        "latitude": 51.6723432,
+        "longitude": 0.148271
+      },
+      "southwest": {
+        "latitude": 51.3849401,
+        "longitude": -0.3514683
+      }
+    }
+  },
+  {
+    "id": "290e103bd9e0",
+    "created": "2018-03-16T01:04:41.286522Z",
+    "type": "other",
+    "status": "active",
+    "name": "Royal London Hotel",
+    "location_name": "Shepherds Bush",
+    "description": "Left Luggage at Royal London Hotel, in Shepards Bush. Perfect for bag storage if you are visiting O2 Empire or Westfield London . 4 mins walk from Goldhawk Road Station . Save money with CityStasher - the best value storage in the UK and Europe!",
+    "host_id": "55bf165e07e9",
+    "rating": null,
+    "rating_count": 0,
+    "featured": false,
+    "latitude": 51.50066,
+    "longitude": -0.221741,
+    "address": "43-47 Shepherds Bush Road, London",
+    "postal_code": "W6 7LU",
+    "country": "GBR",
+    "photos": [
+      "https://www.citystasher.com/albums/images/listings/1519923118_10273_0.jpg"
+    ],
+    "capacity": 30,
+    "opening_hours": [
+      {
+        "day": 0,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 3,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 2,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 6,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 5,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 4,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 1,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      }
+    ],
+    "opening_hours_exceptions": [],
+    "storage_forbidden_out_of_hours": false,
+    "open_twentyfour_seven": true,
+    "open_late": true,
+    "pricing_structure": {
+      "ccy": "GBP",
+      "extra_day_cost": 500,
+      "first_day_cost": 600
+    },
+    "contact": {
+      "name": "Raza Saba",
+      "email": null,
+      "lang": "en",
+      "phone_number": "02076034528"
+    },
+    "views_last_30_days": 33,
+    "feefo_sku": "328",
+    "nearest_city": {
+      "id": 160,
+      "name": "london",
+      "centre": {
+        "latitude": 51.5073509,
+        "longitude": -0.1277583
+      },
+      "northeast": {
+        "latitude": 51.6723432,
+        "longitude": 0.148271
+      },
+      "southwest": {
+        "latitude": 51.3849401,
+        "longitude": -0.3514683
+      }
+    }
+  },
+  {
+    "id": "6616b7072708",
+    "created": "2018-03-16T01:04:41.285709Z",
+    "type": "other",
+    "status": "active",
+    "name": "House of Toby Hotel",
+    "location_name": "King's Cross St Pancras",
+    "description": "Store your luggage in Kings Cross at the House of Toby. This brand new hotel is ideally located less than 5 minutes walk from London's main transport hub. Whether you are arriving into or leaving from Kings Cross St Pancras, or you are just in the area enjoying Regent's Park, the West End, Covent Garden or Oxford Street, this StashPoint is perfect. Save half the price of station storage with double the convenience, since this hotel is open all hours!",
+    "host_id": "070e1f3764d9",
+    "rating": 4.8,
+    "rating_count": 124,
+    "featured": false,
+    "latitude": 51.528713,
+    "longitude": -0.118718,
+    "address": "65 Swinton St, Kings Cross, London",
+    "postal_code": "WC1X 9NT",
+    "country": "GBR",
+    "photos": [
+      "https://www.citystasher.com/albums/images/listings/81_citystasher_kings_cross_st_pancras_stashpoint_left_luggage_at_house_of_toby_hotel_0.jpg",
+      "https://www.citystasher.com/albums/images/listings/81_citystasher_kings_cross_st_pancras_stashpoint_left_luggage_at_house_of_toby_hotel_1.jpg"
+    ],
+    "capacity": 99,
+    "opening_hours": [
+      {
+        "day": 2,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 6,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 4,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 5,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 0,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 1,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 3,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      }
+    ],
+    "opening_hours_exceptions": [],
+    "storage_forbidden_out_of_hours": false,
+    "open_twentyfour_seven": true,
+    "open_late": true,
+    "pricing_structure": {
+      "ccy": "GBP",
+      "extra_day_cost": 500,
+      "first_day_cost": 600
+    },
+    "contact": {
+      "name": "thehouseoftoby thehouseoftoby",
+      "email": null,
+      "lang": "en",
+      "phone_number": "02078410360"
+    },
+    "views_last_30_days": 1395,
+    "feefo_sku": "21413",
+    "nearest_city": {
+      "id": 160,
+      "name": "london",
+      "centre": {
+        "latitude": 51.5073509,
+        "longitude": -0.1277583
+      },
+      "northeast": {
+        "latitude": 51.6723432,
+        "longitude": 0.148271
+      },
+      "southwest": {
+        "latitude": 51.3849401,
+        "longitude": -0.3514683
+      }
+    }
+  },
+  {
+    "id": "5449a5046807",
+    "created": "2018-05-10T13:43:19.293437Z",
+    "type": "hotel",
+    "status": "active",
+    "name": "Stylotel",
+    "location_name": "Paddington",
+    "description": null,
+    "host_id": "ad3cd06d9320",
+    "rating": null,
+    "rating_count": 0,
+    "featured": true,
+    "latitude": 51.515229,
+    "longitude": -0.173262,
+    "address": "160-162 Sussex Gardens, London",
+    "postal_code": "W2 1UD",
+    "country": "GBR",
+    "photos": [
+      "https://s3.eu-west-2.amazonaws.com/stasherimages/v3_images/5909226+(1).jpg"
+    ],
+    "capacity": 20,
+    "opening_hours": [
+      {
+        "day": 2,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 5,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 6,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 4,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 0,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 3,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 1,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      }
+    ],
+    "opening_hours_exceptions": [],
+    "storage_forbidden_out_of_hours": false,
+    "open_twentyfour_seven": true,
+    "open_late": true,
+    "pricing_structure": {
+      "ccy": "GBP",
+      "extra_day_cost": 500,
+      "first_day_cost": 600
+    },
+    "contact": {
+      "name": "Andreas Iona",
+      "email": null,
+      "lang": "en",
+      "phone_number": "+442077231026"
+    },
+    "views_last_30_days": 154,
+    "feefo_sku": "5449a5046807",
+    "nearest_city": {
+      "id": 160,
+      "name": "london",
+      "centre": {
+        "latitude": 51.5073509,
+        "longitude": -0.1277583
+      },
+      "northeast": {
+        "latitude": 51.6723432,
+        "longitude": 0.148271
+      },
+      "southwest": {
+        "latitude": 51.3849401,
+        "longitude": -0.3514683
+      }
+    }
+  },
+  {
+    "id": "0582983eafa2",
+    "created": "2018-03-16T01:04:41.285528Z",
+    "type": "other",
+    "status": "active",
+    "name": "Today's Express",
+    "location_name": "Earl's Court / West Brompton",
+    "description": "Store your luggage at Today's Express in West Brompton. A short walk from West Brompton station and just 10 minutes walk from Earl's Court. This friendly shop is open all hours, so you can drop off and pick up your bags whenever you need!\n Opening Hours\n Open all hours! 24 hours a day, 7 days a week",
+    "host_id": "173d8b1a5f5d",
+    "rating": 3.8,
+    "rating_count": 4,
+    "featured": false,
+    "latitude": 51.485653,
+    "longitude": -0.202323,
+    "address": "86A Lillie Rd, London",
+    "postal_code": "SW6 1TL",
+    "country": "GBR",
+    "photos": [
+      "https://www.citystasher.com/albums/images/listings/27_citystasher_earls_court_west_brompton_stashpoint_left_luggage_at_todays_express_0.jpg",
+      "https://www.citystasher.com/albums/images/listings/27_citystasher_earls_court_west_brompton_stashpoint_left_luggage_at_todays_express_1.jpg"
+    ],
+    "capacity": 99,
+    "opening_hours": [
+      {
+        "day": 5,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 0,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 1,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 2,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 3,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 6,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 4,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      }
+    ],
+    "opening_hours_exceptions": [
+      {
+        "type": "closed",
+        "date": "2018-03-30",
+        "start_time": "00:00:00",
+        "end_time": "00:00:00"
+      },
+      {
+        "type": "closed",
+        "date": "2018-04-02",
+        "start_time": "00:00:00",
+        "end_time": "00:00:00"
+      },
+      {
+        "type": "closed",
+        "date": "2018-05-28",
+        "start_time": "00:00:00",
+        "end_time": "00:00:00"
+      },
+      {
+        "type": "closed",
+        "date": "2018-04-01",
+        "start_time": "00:00:00",
+        "end_time": "00:00:00"
+      },
+      {
+        "type": "closed",
+        "date": "2018-05-07",
+        "start_time": "00:00:00",
+        "end_time": "00:00:00"
+      },
+      {
+        "type": "closed",
+        "date": "2018-03-31",
+        "start_time": "00:00:00",
+        "end_time": "00:00:00"
+      }
+    ],
+    "storage_forbidden_out_of_hours": false,
+    "open_twentyfour_seven": true,
+    "open_late": true,
+    "pricing_structure": {
+      "ccy": "GBP",
+      "extra_day_cost": 500,
+      "first_day_cost": 600
+    },
+    "contact": {
+      "name": "halil halil",
+      "email": null,
+      "lang": "en",
+      "phone_number": "02073812715"
+    },
+    "views_last_30_days": 72,
+    "feefo_sku": "9381",
+    "nearest_city": {
+      "id": 160,
+      "name": "london",
+      "centre": {
+        "latitude": 51.5073509,
+        "longitude": -0.1277583
+      },
+      "northeast": {
+        "latitude": 51.6723432,
+        "longitude": 0.148271
+      },
+      "southwest": {
+        "latitude": 51.3849401,
+        "longitude": -0.3514683
+      }
+    }
+  },
+  {
+    "id": "532feefb27b7",
+    "created": "2018-03-16T01:04:41.286525Z",
+    "type": "other",
+    "status": "active",
+    "name": "Saba Hotel",
+    "location_name": "Shepherds Bush",
+    "description": "Left Luggage at Saba Hotel, in Shepherds Bush. Perfect for bag storage if you are visiting Olympia London  or Westfield London. 5 mins walk from Hammersmith. Save money with CityStasher - the best value storage in the UK and Europe!",
+    "host_id": "55bf165e07e9",
+    "rating": null,
+    "rating_count": 0,
+    "featured": false,
+    "latitude": 51.498104,
+    "longitude": -0.222203,
+    "address": "101-103 Shepherds Bush Road, London",
+    "postal_code": "W6 7LP",
+    "country": "GBR",
+    "photos": [
+      "https://www.citystasher.com/albums/images/listings/1519923723_10273_0.jpg"
+    ],
+    "capacity": 30,
+    "opening_hours": [
+      {
+        "day": 6,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 0,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 1,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 5,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 2,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 3,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 4,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      }
+    ],
+    "opening_hours_exceptions": [],
+    "storage_forbidden_out_of_hours": false,
+    "open_twentyfour_seven": true,
+    "open_late": true,
+    "pricing_structure": {
+      "ccy": "GBP",
+      "extra_day_cost": 500,
+      "first_day_cost": 600
+    },
+    "contact": {
+      "name": "Raza Saba",
+      "email": null,
+      "lang": "en",
+      "phone_number": "02076034528"
+    },
+    "views_last_30_days": 59,
+    "feefo_sku": "329",
+    "nearest_city": {
+      "id": 160,
+      "name": "london",
+      "centre": {
+        "latitude": 51.5073509,
+        "longitude": -0.1277583
+      },
+      "northeast": {
+        "latitude": 51.6723432,
+        "longitude": 0.148271
+      },
+      "southwest": {
+        "latitude": 51.3849401,
+        "longitude": -0.3514683
+      }
+    }
+  },
+  {
+    "id": "ecca2c141f45",
+    "created": "2018-03-16T01:04:41.286595Z",
+    "type": "other",
+    "status": "active",
+    "name": "London Victoria Apartments",
+    "location_name": "Victoria",
+    "description": "Left Luggage at London Victoria Apartments, by Victoria Station. Perfect for bag storage if you are visiting the Apollo Victoria Theatre or Victoria Palace Theatre. Two minute walk from Victoria Station. Save money with Citystasher - the best value storage in the UK!",
+    "host_id": "d271dbf6ec1f",
+    "rating": 5,
+    "rating_count": 2,
+    "featured": false,
+    "latitude": 51.494991,
+    "longitude": -0.141211,
+    "address": "282 Vauxhall Bridge Road, London",
+    "postal_code": "SW1V 1BB",
+    "country": "GBR",
+    "photos": [
+      "https://s3.eu-west-2.amazonaws.com/stasherimages/v3_images/20180425_160156+(1)+(1).jpg"
+    ],
+    "capacity": 40,
+    "opening_hours": [
+      {
+        "day": 2,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 4,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 3,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 6,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 0,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 5,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 1,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      }
+    ],
+    "opening_hours_exceptions": [],
+    "storage_forbidden_out_of_hours": false,
+    "open_twentyfour_seven": true,
+    "open_late": true,
+    "pricing_structure": {
+      "ccy": "GBP",
+      "extra_day_cost": 500,
+      "first_day_cost": 600
+    },
+    "contact": {
+      "name": "Javed Shaikh",
+      "email": null,
+      "lang": "en",
+      "phone_number": "02078342751"
+    },
+    "views_last_30_days": 35,
+    "feefo_sku": "352",
+    "nearest_city": {
+      "id": 160,
+      "name": "london",
+      "centre": {
+        "latitude": 51.5073509,
+        "longitude": -0.1277583
+      },
+      "northeast": {
+        "latitude": 51.6723432,
+        "longitude": 0.148271
+      },
+      "southwest": {
+        "latitude": 51.3849401,
+        "longitude": -0.3514683
+      }
+    }
+  },
+  {
+    "id": "f7f9e204a37a",
+    "created": "2018-04-13T15:53:29.561772Z",
+    "type": "other",
+    "status": "inactive",
+    "name": "Londis Tooting",
+    "location_name": "Tooting",
+    "description": null,
+    "host_id": "1fe0da89a220",
+    "rating": null,
+    "rating_count": 0,
+    "featured": false,
+    "latitude": 51.4276,
+    "longitude": -0.167694,
+    "address": "4 Mitcham Rd, London ",
+    "postal_code": "SW17 9NA",
+    "country": "GBR",
+    "photos": [
+      "https://s3.eu-west-2.amazonaws.com/stasherimages/v3_images/londistooting.jpg"
+    ],
+    "capacity": 25,
+    "opening_hours": [
+      {
+        "day": 2,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 1,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 3,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 5,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 4,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 6,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      },
+      {
+        "day": 0,
+        "open": "00:00:00",
+        "close": "00:00:00"
+      }
+    ],
+    "opening_hours_exceptions": [
+      {
+        "type": "closed",
+        "date": "2018-05-28",
+        "start_time": "00:00:00",
+        "end_time": "00:00:00"
+      },
+      {
+        "type": "closed",
+        "date": "2018-05-07",
+        "start_time": "00:00:00",
+        "end_time": "00:00:00"
+      }
+    ],
+    "storage_forbidden_out_of_hours": false,
+    "open_twentyfour_seven": true,
+    "open_late": true,
+    "pricing_structure": {
+      "ccy": "GBP",
+      "extra_day_cost": 500,
+      "first_day_cost": 600
+    },
+    "contact": {
+      "name": "Kassaye",
+      "email": null,
+      "lang": "en",
+      "phone_number": "07957459906"
+    },
+    "views_last_30_days": 19,
+    "feefo_sku": "f7f9e204a37a",
+    "nearest_city": {
+      "id": 160,
+      "name": "london",
+      "centre": {
+        "latitude": 51.5073509,
+        "longitude": -0.1277583
+      },
+      "northeast": {
+        "latitude": 51.6723432,
+        "longitude": 0.148271
+      },
+      "southwest": {
+        "latitude": 51.3849401,
+        "longitude": -0.3514683
+      }
+    }
+  }
+]
