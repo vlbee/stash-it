@@ -5,9 +5,9 @@ import Button from './button';
 
 test('Button works', () => {
 
-  const { container, getByText } = render(<Button>Test</Button>);
+  const { container, getByText } = render(<Button text="Open"></Button>);
   // console.log(prettyDOM(container))
-  const buttonNode = getByText('Test');
+  const buttonNode = getByText('Open');
   fireEvent.click(buttonNode);
-  expect(buttonNode.textContent).toBe('Toggled');
+  expect(buttonNode.textContent).toBe('Open selected');
 });

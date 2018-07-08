@@ -2,17 +2,20 @@ import React from 'react';
 import './button.css';
 
 class Button extends React.Component {
-  state = {
-    toggled: false,
+
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      toggled: false,
+    }
   };
+
   render() {
     return (
-      <button
-        onClick={() =>
-          this.setState(prevState => ({ toggled: !prevState.toggled }))
-        }
-      >
-        {this.state.toggled ? 'Toggled' : this.props.children}
+      <button onClick={() => this.setState(prevState => ({ toggled: !prevState.toggled }))}>
+        {this.props.text}
+        {this.state.toggled ? ' selected' : this.props.children}
       </button>
     );
   }
