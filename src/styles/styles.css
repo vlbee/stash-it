@@ -1,6 +1,8 @@
 /* Normalize is small CSS file that provides better cross-browser consistency in the default styling of HTML elements. It’s a modern, HTML5-ready, alternative to the traditional CSS reset. */
 @import './_normalize';
+@import '../../node_modules/leaflet/dist/leaflet.css';
 
+/* /Users/Vanessa/CODING/techtests/stashit/node_modules/leaflet/dist/leaflet.css */
 
 body {
   padding: 0;
