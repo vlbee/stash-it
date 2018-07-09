@@ -16,6 +16,8 @@ let DefaultIcon = L.icon({
 });
 L.Marker.prototype.options.icon = DefaultIcon;
 
+
+
 class Mapview extends Component {
 
   constructor(props) {
@@ -23,6 +25,8 @@ class Mapview extends Component {
   }
 
   render() {
+    const stashpoints = [...this.props.stashpoints];
+
     return (
       <div>
         <Map ref="map" center={[this.props.lat, this.props.long]} zoom={13} className="map">
@@ -30,9 +34,17 @@ class Mapview extends Component {
             url={mapboxURL}
             attribution='&copy; <a href="https://www.mapbox.com/about/maps/">Mapbox</a> &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>'
           />
-          <Marker position={[this.props.lat, this.props.long]}>
+          {stashpoints.map((location, i) => {
+            console.log(location)
+            return (<Marker key={i} position={[location.latitude, location.longitude]}>
+              <Popup>{location.name}<br />{location.address}</Popup>
+            </Marker>)
+          })}
+
+
+          {/* <Marker position={[this.props.lat, this.props.long]}>
             <Popup>A pretty CSS3 popup.<br />Easily customizable.</Popup>
-          </Marker>
+          </Marker> */}
         </Map>
       </div>
     )

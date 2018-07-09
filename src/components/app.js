@@ -11,7 +11,7 @@ class App extends Component {
       query: {
         centre_lat: null,
         centre_lon: null,
-        nearby_radius: 5,
+        nearby_radius: 10,
         by_distance: "desc",
         open_late: false,
         twentyfour_seven: false
@@ -86,7 +86,11 @@ class App extends Component {
         alert('Geolocation is not supported by this browser.');
       }
     }).then(() => {
-      this.fetchRequest(this.state.query).then(data => { this.setState({ stashpoints: data }); console.log(this.state) })
+      // TODO - REFACTOR
+      this.fetchRequest(this.state.query).then(data => {
+        this.setState({ stashpoints: data });
+        // console.log(this.state) 
+      })
     }).catch(error => {
       console.log(error)
     })
@@ -102,7 +106,7 @@ class App extends Component {
     return (
       <div className="app" >
         <h1>Find It, Stash It</h1>
-        {(this.state.query.centre_lat === null) ? (<h2>Fetching Location Data</h2>) :
+        {(this.state.stashpoints === null) ? (<h2>Fetching Location Data</h2>) :
           (<Mapview stashpoints={this.state.stashpoints} lat={this.state.query.centre_lat} long={this.state.query.centre_lon}></Mapview>)}
       </div>
     )
