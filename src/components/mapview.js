@@ -18,6 +18,12 @@ let DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon;
 
 
+const PopupContent = ({ name, address, postal_code, open_twentyfour_seven }) => {
+  return (
+    <div><strong>{name}</strong><br />{address} {postal_code}<br />
+      {(open_twentyfour_seven) ? (<span>Open 24/7</span>) : null}</div>
+  )
+}
 
 class Mapview extends Component {
 
@@ -37,14 +43,11 @@ class Mapview extends Component {
           />
           {stashpoints.map((location) => {
             return (<Marker key={location.id} position={[location.latitude, location.longitude]}>
-              <Popup>{location.name}<br />{location.address}</Popup>
+              <Popup>
+                <PopupContent {...location} />
+              </Popup>
             </Marker>)
           })}
-
-
-          {/* <Marker position={[this.props.lat, this.props.long]}>
-            <Popup>A pretty CSS3 popup.<br />Easily customizable.</Popup>
-          </Marker> */}
         </Map>
       </div>
     )
