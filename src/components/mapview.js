@@ -27,7 +27,7 @@ class Mapview extends Component {
 
   render() {
     const stashpoints = [...this.props.stashpoints];
-
+    console.log(stashpoints)
     return (
       <div>
         <Map ref="map" center={[this.props.lat, this.props.long]} zoom={13} className="map">
@@ -36,7 +36,6 @@ class Mapview extends Component {
             attribution={mapboxAttribution}
           />
           {stashpoints.map((location) => {
-            console.log(location)
             return (<Marker key={location.id} position={[location.latitude, location.longitude]}>
               <Popup>{location.name}<br />{location.address}</Popup>
             </Marker>)
