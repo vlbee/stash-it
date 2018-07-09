@@ -106,7 +106,7 @@ class App extends Component {
     return (
       <div className="app" >
         <h1>Find It, Stash It</h1>
-        {(this.state.stashpoints === null) ? (<h2>Fetching Location Data</h2>) :
+        {(this.state.stashpoints === null) ? (<div className="loader" />) :
           (<Mapview stashpoints={this.state.stashpoints} lat={this.state.query.centre_lat} long={this.state.query.centre_lon}></Mapview>)}
       </div>
     )
