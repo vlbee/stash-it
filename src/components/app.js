@@ -12,7 +12,7 @@ class App extends Component {
       query: {
         centre_lat: null,
         centre_lon: null,
-        nearby_radius: 5,
+        nearby_radius: 30,
         by_distance: "desc",
         // open_late: false,
         // twentyfour_seven: false
@@ -113,7 +113,7 @@ class App extends Component {
             nearby_radius: prevState.query.nearby_radius,
             by_distance: prevState.query.by_distance,
           },
-          stashpoints: prevState.stashpoints
+          stashpoints: null
         }
       } else {
         return {
@@ -124,10 +124,24 @@ class App extends Component {
             by_distance: prevState.query.by_distance,
             twentyfour_seven: true
           },
-          stashpoints: prevState.stashpoints
+          stashpoints: null
         }
       }
     })
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    console.log("updated")
+    const query = this.state.query;
+    const prevQuery = prevState.query
+    console.log(Object.keys(query).length)
+    // Typical usage (don't forget to compare props):
+    if (Object.keys(query).length !== Object.keys(prevQuery).length) {
+      this.fetchRequest(this.state.query).then(data => {
+        this.setState({ stashpoints: data });
+        console.log(this.state)
+      })
+    }
   }
 
   render() {
