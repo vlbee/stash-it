@@ -1,10 +1,20 @@
 import React, { Component } from 'react';
+import L from 'leaflet';
 import { Map, TileLayer, Marker, Popup } from 'react-leaflet';
 import ErrorBoundary from './errorBoundary'
 import { token } from '../token'
 
+// Source of map tiles
 const mapboxURL = `https://api.tiles.mapbox.com/v4/mapbox.light/{z}/{x}/{y}@2x.png?access_token=${token}`
-const position = [51.505, -0.09]
+
+// Fix for react-leaflet 404 error rendering Leaflet's default market icon
+import icon from 'leaflet/dist/images/marker-icon.png';
+import iconShadow from 'leaflet/dist/images/marker-shadow.png';
+let DefaultIcon = L.icon({
+  iconUrl: icon,
+  shadowUrl: iconShadow
+});
+L.Marker.prototype.options.icon = DefaultIcon;
 
 class Mapview extends Component {
 
@@ -15,7 +25,7 @@ class Mapview extends Component {
   render() {
     return (
       <div>
-        <Map ref="map" center={[this.props.lat, this.props.long]} zoom={3} className="map">
+        <Map ref="map" center={[this.props.lat, this.props.long]} zoom={13} className="map">
           <TileLayer
             url={mapboxURL}
             attribution='&copy; <a href="https://www.mapbox.com/about/maps/">Mapbox</a> &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>'

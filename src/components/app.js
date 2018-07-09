@@ -25,7 +25,11 @@ class App extends Component {
   getLocation = () => {
     if (navigator.geolocation) {
       return new Promise(
-        (resolve, reject) => navigator.geolocation.getCurrentPosition(resolve, reject)
+        (resolve, reject) => navigator.geolocation.getCurrentPosition(resolve, reject, {
+          enableHighAccuracy: true,
+          timeout: 7000,
+          maximumAge: 0
+        })
       )
     } else {
       return new Promise(
@@ -90,7 +94,7 @@ class App extends Component {
 
   componentWillUnmount() {
     if (this.getLocation) {
-      this.getLocation.cancel();
+      this.getLocation = null;
     }
   }
 
