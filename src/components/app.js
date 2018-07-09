@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Mapview from './mapview'
+import Button from './button/button'
 // import { fetchRequest } from '../utils/fetch/fetch'
 
 
@@ -27,7 +28,7 @@ class App extends Component {
       return new Promise(
         (resolve, reject) => navigator.geolocation.getCurrentPosition(resolve, reject, {
           enableHighAccuracy: true,
-          timeout: 7000,
+          timeout: 10000,
           maximumAge: 0
         })
       )
@@ -105,7 +106,12 @@ class App extends Component {
   render() {
     return (
       <div className="app" >
-        <h1>Find It, Stash It</h1>
+        <nav>
+          <h1>Find It, Stash It</h1>
+          <div>
+            <Button text="Open 24/7" />
+          </div>
+        </nav>
         {(this.state.stashpoints === null) ? (<div className="loader" />) :
           (<Mapview stashpoints={this.state.stashpoints} lat={this.state.query.centre_lat} long={this.state.query.centre_lon}></Mapview>)}
       </div>
