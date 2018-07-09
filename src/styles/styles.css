@@ -16,6 +16,11 @@ nav {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+
+.filter-list{
+  padding: 1rem;
+}
+
 .map {
   height: 100vh;
 }

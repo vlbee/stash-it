@@ -9,7 +9,7 @@ class App extends Component {
       query: {
         centre_lat: null,
         centre_lon: null,
-        nearby_radius: 30,
+        nearby_radius: 20,
         by_distance: "desc",
       },
       // Loader will show whenever state.stashpoints is null
@@ -135,13 +135,13 @@ class App extends Component {
     }
   }
 
-  //TODO refactor NAV bar into seperate component
+  //TODO refactor NAV bar into separate component
   render() {
     return (
       <div className="app" >
         <nav>
           <h1>Find It, Stash It</h1>
-          <div>
+          <div className="filter-list">
             <Button text="Open 24/7" handle247={this.handle247} />
           </div>
         </nav>

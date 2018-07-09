@@ -16,7 +16,7 @@ class Button extends React.Component {
         this.setState(prevState => ({ toggled: !prevState.toggled }))
       }}>
         {this.props.text}
-        {this.state.toggled ? ' Y' : this.props.children}
+        {this.state.toggled ? ' Only' : this.props.children}
       </button>
     );
   }
