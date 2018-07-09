@@ -11,10 +11,10 @@ class App extends Component {
       query: {
         centre_lat: null,
         centre_lon: null,
-        nearby_radius: 10,
+        nearby_radius: 5,
         by_distance: "desc",
-        open_late: false,
-        twentyfour_seven: false
+        // open_late: false,
+        // twentyfour_seven: false
       },
       stashpoints: null
       //TODO: add error message feedback to user if geolocation or data fetching fails
@@ -76,8 +76,8 @@ class App extends Component {
               centre_lon: position.coords.longitude,
               nearby_radius: prevState.query.nearby_radius,
               by_distance: prevState.query.by_distance,
-              open_late: prevState.query.open_late,
-              twentyfour_seven: prevState.query.twentyfour_seven
+              // open_late: prevState.query.open_late,
+              // twentyfour_seven: prevState.query.twentyfour_seven
             },
             stashpoints: prevState.stashpoints
           }
