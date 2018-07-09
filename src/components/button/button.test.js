@@ -9,5 +9,5 @@ test('Button works', () => {
   // console.log(prettyDOM(container))
   const buttonNode = getByText('Open');
   fireEvent.click(buttonNode);
-  expect(buttonNode.textContent).toBe('Open selected');
+  expect(buttonNode.textContent).toBe('Open Y');
 });

@@ -13,7 +13,10 @@ class Button extends React.Component {
 
   render() {
     return (
-      <button onClick={() => this.setState(prevState => ({ toggled: !prevState.toggled }))}>
+      <button onClick={(e) => {
+        this.props.handle247(e);
+        this.setState(prevState => ({ toggled: !prevState.toggled }))
+      }}>
         {this.props.text}
         {this.state.toggled ? ' selected' : this.props.children}
       </button>

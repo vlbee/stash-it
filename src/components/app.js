@@ -103,13 +103,40 @@ class App extends Component {
     }
   }
 
+  handle247 = event => {
+    this.setState(prevState => {
+      if (prevState.query.twentyfour_seven) {
+        return {
+          query: {
+            centre_lat: prevState.query.centre_lat,
+            centre_lon: prevState.query.centre_lon,
+            nearby_radius: prevState.query.nearby_radius,
+            by_distance: prevState.query.by_distance,
+          },
+          stashpoints: prevState.stashpoints
+        }
+      } else {
+        return {
+          query: {
+            centre_lat: prevState.query.centre_lat,
+            centre_lon: prevState.query.centre_lon,
+            nearby_radius: prevState.query.nearby_radius,
+            by_distance: prevState.query.by_distance,
+            twentyfour_seven: true
+          },
+          stashpoints: prevState.stashpoints
+        }
+      }
+    })
+  }
+
   render() {
     return (
       <div className="app" >
         <nav>
           <h1>Find It, Stash It</h1>
           <div>
-            <Button text="Open 24/7" />
+            <Button text="Open 24/7" handle247={this.handle247} />
           </div>
         </nav>
         {(this.state.stashpoints === null) ? (<div className="loader" />) :
