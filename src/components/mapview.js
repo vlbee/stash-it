@@ -8,7 +8,7 @@ import { token } from '../token'
 const mapboxURL = `https://api.tiles.mapbox.com/v4/mapbox.light/{z}/{x}/{y}@2x.png?access_token=${token}`
 const mapboxAttribution = '&copy; <a href="https://www.mapbox.com/about/maps/">Mapbox</a> &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>'
 
-// Fix for react-leaflet 404 error rendering Leaflet's default market icon
+// Fix for react-leaflet 404 error in rendering Leaflet's default market icon
 import icon from 'leaflet/dist/images/marker-icon.png';
 import iconShadow from 'leaflet/dist/images/marker-shadow.png';
 let DefaultIcon = L.icon({
@@ -18,6 +18,7 @@ let DefaultIcon = L.icon({
 L.Marker.prototype.options.icon = DefaultIcon;
 
 
+// TODO - refactor to include more infomation and/or display in sidebar
 const PopupContent = ({ name, address, postal_code, open_twentyfour_seven }) => {
   return (
     <div><strong>{name}</strong><br />{address} {postal_code}<br />
@@ -25,18 +26,19 @@ const PopupContent = ({ name, address, postal_code, open_twentyfour_seven }) => 
   )
 }
 
-class Mapview extends Component {
 
+// Leaflet requires its own div to contain the Map companent. Must have height value declared in CSS
+class Mapview extends Component {
   constructor(props) {
     super(props);
   }
 
   render() {
     const stashpoints = [...this.props.stashpoints];
-    console.log(stashpoints)
+
     return (
       <div>
-        <Map ref="map" center={[this.props.lat, this.props.long]} zoom={13} className="map">
+        <Map ref="map" center={[this.props.lat, this.props.long]} zoom={11} className="map">
           <TileLayer
             url={mapboxURL}
             attribution={mapboxAttribution}

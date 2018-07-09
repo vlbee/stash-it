@@ -1,11 +1,8 @@
 import React, { Component } from 'react';
 import Mapview from './mapview'
 import Button from './button/button'
-// import { fetchRequest } from '../utils/fetch/fetch'
-
 
 class App extends Component {
-
   constructor(props) {
     super(props);
     this.state = {
@@ -14,15 +11,13 @@ class App extends Component {
         centre_lon: null,
         nearby_radius: 30,
         by_distance: "desc",
-        // open_late: false,
-        // twentyfour_seven: false
       },
+      // Loader will show whenever state.stashpoints is null
       stashpoints: null
-      //TODO: add error message feedback to user if geolocation or data fetching fails
-      // errorMsg: null
     };
   }
 
+  // TODO - REFACTOR to utils/getlocation folder
   getLocation = () => {
     if (navigator.geolocation) {
       return new Promise(
@@ -39,6 +34,7 @@ class App extends Component {
     }
   }
 
+  // TODO - REFACTOR to utils/fetch folder
   checkFetchResponse = res => {
     if (res.status === 200) {
       let result = res.json();
@@ -50,6 +46,7 @@ class App extends Component {
     }
   };
 
+  // TODO - REFACTOR to utils/fetch folder
   fetchRequest = (params = {}) => {
     const url = new URL(`https://api-staging.stasher.com/v1/stashpoints`);
     Object.keys(params).forEach(key => url.searchParams.append(key, params[key]))
@@ -66,8 +63,11 @@ class App extends Component {
       });
   };
 
+  // Requests geolocation in order to fetch nearby stashpoints
   componentDidMount() {
     this.getLocation().then(position => {
+      // this.getLocation = null is based on React Blog update on async rendering:
+      // https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html
       this.getLocation = null;
       if (position.coords) {
         this.setState(prevState => {
@@ -77,8 +77,6 @@ class App extends Component {
               centre_lon: position.coords.longitude,
               nearby_radius: prevState.query.nearby_radius,
               by_distance: prevState.query.by_distance,
-              // open_late: prevState.query.open_late,
-              // twentyfour_seven: prevState.query.twentyfour_seven
             },
             stashpoints: prevState.stashpoints
           }
@@ -87,22 +85,18 @@ class App extends Component {
         alert('Geolocation is not supported by this browser.');
       }
     }).then(() => {
-      // TODO - REFACTOR
+      // TODO - REFACTOR to utils folder
       this.fetchRequest(this.state.query).then(data => {
         this.setState({ stashpoints: data });
-        // console.log(this.state) 
       })
     }).catch(error => {
+      // TODO - Refactor to pass error message to user
       console.log(error)
     })
   }
 
-  componentWillUnmount() {
-    if (this.getLocation) {
-      this.getLocation = null;
-    }
-  }
-
+  // Filter Handler to update state
+  // TODO: refactor to handle various filter types based on button values passed via event. 
   handle247 = event => {
     this.setState(prevState => {
       if (prevState.query.twentyfour_seven) {
@@ -130,20 +124,18 @@ class App extends Component {
     })
   }
 
+  // Whenever state changes, compares length of State.query object to determine if new fetch request to CityStasher API required.
   componentDidUpdate(prevProps, prevState) {
-    console.log("updated")
     const query = this.state.query;
     const prevQuery = prevState.query
-    console.log(Object.keys(query).length)
-    // Typical usage (don't forget to compare props):
     if (Object.keys(query).length !== Object.keys(prevQuery).length) {
       this.fetchRequest(this.state.query).then(data => {
         this.setState({ stashpoints: data });
-        console.log(this.state)
       })
     }
   }
 
+  //TODO refactor NAV bar into seperate component
   render() {
     return (
       <div className="app" >
