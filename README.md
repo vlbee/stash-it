@@ -61,7 +61,9 @@ I used the browser and **[Postman](https://www.getpostman.com/)** to explore var
 At this point I also decided to ignore any sorting queries as they did not appear to be working and the API documentation did not provide specific sorting query syntax examples. 
 
 E.g. these queries return results in the same order:
+
 `https://api-staging.stasher.com/v1/stashpoints?city=dublin&by_capacity=asc`
+
 `https://api-staging.stasher.com/v1/stashpoints?city=dublin&by_capacity=desc`
  
 #### 2. Integration of Leaflet Map
