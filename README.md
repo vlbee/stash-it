@@ -106,6 +106,7 @@ componentDidUpdate(prevProps, prevState) {
   
   There are a number of things I would like to improve upon: 
   
+*   Show network request error feedback to the user.
 *   Show a different coloured marker of the user's location on the map in relation to stashpoints. 
 *   Refactor various components and utility functions out of the main `App` component.
 *   Review `onClick` handler and how I am managing the query parameters in State to be able to provide for multiple filter functions.
