@@ -40,12 +40,23 @@ class App extends Component {
           alert('Geolocation is not supported by this browser.');
         }
       }).then(() => {
-        fetchRequest(this.state.query).then(data => {
+        return fetchRequest(this.state.query).then(data => {
           this.setState({ stashpoints: data });
         })
       }).catch(error => {
         // TODO - Refactor to pass error message to user
-        console.log(error)
+        console.log(error instanceof PositionError)
+        // this.setState(prevState => {
+        //   if (error instanceof PositionError) {
+        //     console.log("in error")
+        //     return { prevState, errMsg: 'There was an error establishing your geolocation' };
+        //     // } else if (typeof error === PositionError) {
+        //     //   return { prevState, errMsg: 'There was an error retrieving location data' };
+        //   } else {
+        //     return { prevState, errMsg: 'Oops! We seem to be experiencing a problem. Please try again lager' };
+        //   }
+        // });
+        // console.log(this.state)
       })
   }
 
