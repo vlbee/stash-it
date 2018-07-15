@@ -24,3 +24,4 @@ export const fetchRequest = (params = {}) => {
       throw new Error(`Fetch request failed: ${err}`);
     });
 };
+
