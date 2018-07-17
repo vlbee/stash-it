@@ -45,9 +45,6 @@ This project was an opportunity to develop my React and Rest API skills as well 
 #### Note on React-Leaflet: 
 Libary providing an abstraction of Leaflet as React components that makes it easier to use the two together. Unfortunately React-Leaflet's (breaking) v2 release a couple days before I started the project meant several demos, blog posts and how-to's did not function as expected. As a result I opted to downgrade to v1.9.1 to get the Leaflet map rendering without having more time to explore and learn both mapping libraries in more depth. 
 
-#### Note on development environment: 
-This project often threw unexpected, difficult to interpret compile and runtime errors during development, especially when trying to modularise code. I suspect perhaps something with the Parcel bundling set up does not play nice with Leaflet/React-Leaflet but this and other possible causes need to be investigated further. This led to some unfortunate code and architecting hacks on the project. 
-
 #### Web Performance:
 To practice Server-Side filtering/sorting and async networks requests with React, I used the Stasher API for pulling data. From a UX perspective however, I think it would make more sense to filter and sort results client-side for a snappier experience, only utilising subsequent network requests if the user needed additional data (ie, "update map as I move" option or sort by city name vs. an initial geolocation-based fetch request)
 
