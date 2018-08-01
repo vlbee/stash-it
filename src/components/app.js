@@ -15,7 +15,9 @@ class App extends Component {
         by_distance: "desc",
       },
       // Loader will show whenever state.stashpoints is null
-      stashpoints: null
+      stashpoints: null,
+      // errMsg will show if not null
+      errMsg: null
     };
   }
 
@@ -23,6 +25,7 @@ class App extends Component {
     // https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html
     this._asyncRequest = getLocation().then(
       position => {
+        console.log({ position })
         this._asyncRequest = null;
         if (position.coords) {
           this.setState(prevState => {
@@ -40,23 +43,34 @@ class App extends Component {
           alert('Geolocation is not supported by this browser.');
         }
       }).then(() => {
-        return fetchRequest(this.state.query).then(data => {
+        (console.log("fetching"))
+        fetchRequest(this.state.query).then(data => {
           this.setState({ stashpoints: data });
         })
       }).catch(error => {
-        // TODO - Refactor to pass error message to user
-        console.log(error instanceof PositionError)
-        // this.setState(prevState => {
-        //   if (error instanceof PositionError) {
-        //     console.log("in error")
-        //     return { prevState, errMsg: 'There was an error establishing your geolocation' };
-        //     // } else if (typeof error === PositionError) {
-        //     //   return { prevState, errMsg: 'There was an error retrieving location data' };
-        //   } else {
-        //     return { prevState, errMsg: 'Oops! We seem to be experiencing a problem. Please try again lager' };
-        //   }
-        // });
-        // console.log(this.state)
+        // TODO refactor error handling into module
+        // const errorName = Object.getPrototypeOf(error).constructor.name;
+        console.log(error)
+        // console.log(errorName)
+        this.setState(prevState => {
+          if (errorName === 'PositionError') {
+            return {
+              query: prevState.query,
+              stashpoints: prevState.stashpoints,
+              errMsg: 'There was an error establishing your geolocation. Please refresh the page to try again.'
+            };
+          } else if (errorName === 'FetchError') {
+            console.log(error)
+            return {
+              query: prevState.query,
+              stashpoints: prevState.stashpoints,
+              errMsg: 'Oops! We seem to be experiencing a problem. Please try again later.'
+            };
+          } else {
+            console.log('else:', error)
+          }
+        });
+        console.log(this.state)
       })
   }
 
@@ -110,8 +124,13 @@ class App extends Component {
     return (
       <div className="app" >
         <Header handle247={this.handle247} />
-        {(this.state.stashpoints === null) ? (<div className="loader" />) :
-          (<Mapview stashpoints={this.state.stashpoints} lat={this.state.query.centre_lat} long={this.state.query.centre_lon}></Mapview>)}
+        {
+          (this.state.errMsg !== null)
+            ? (<h5 class="error-message">{this.state.errMsg}</h5>)
+            : ((this.state.stashpoints === null)
+              ? (<div className="loader" />)
+              : (<Mapview stashpoints={this.state.stashpoints} lat={this.state.query.centre_lat} long={this.state.query.centre_lon}></Mapview>))
+        }
       </div>
     )
   }

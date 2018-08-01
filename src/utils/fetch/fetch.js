@@ -1,3 +1,9 @@
+// class FetchError extends Error {
+//   constructor() {
+//     super();
+//   }
+// }
+
 const checkFetchResponse = res => {
   if (res.status === 200) {
     let result = res.json();
@@ -21,7 +27,7 @@ export const fetchRequest = (params = {}) => {
   })
     .then(checkFetchResponse)
     .catch(err => {
-      throw new Error(`Fetch request failed: ${err}`);
+      throw new FetchError(`Fetch request failed: ${err}`);
     });
 };
 
