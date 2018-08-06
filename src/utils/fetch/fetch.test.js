@@ -1,7 +1,7 @@
 import { fetchRequest } from './fetch';
 import dummyAll from './dummyAll.json'
 import dummyFilter from './dummyFilter.json'
-
+global.fetch = require('jest-fetch-mock')
 
 describe('testing fetch function calls api by default', () => {
   afterAll(() => {
