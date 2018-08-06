@@ -49,9 +49,9 @@ class App extends Component {
         })
       }).catch(error => {
         // TODO refactor error handling into module
-        // const errorName = Object.getPrototypeOf(error).constructor.name;
+        const errorName = Object.getPrototypeOf(error).constructor.name;
         console.log(error)
-        // console.log(errorName)
+        console.log(errorName)
         this.setState(prevState => {
           if (errorName === 'PositionError') {
             return {
@@ -126,7 +126,7 @@ class App extends Component {
         <Header handle247={this.handle247} />
         {
           (this.state.errMsg !== null)
-            ? (<h5 class="error-message">{this.state.errMsg}</h5>)
+            ? (<h5 className="error-message">{this.state.errMsg}</h5>)
             : ((this.state.stashpoints === null)
               ? (<div className="loader" />)
               : (<Mapview stashpoints={this.state.stashpoints} lat={this.state.query.centre_lat} long={this.state.query.centre_lon}></Mapview>))
