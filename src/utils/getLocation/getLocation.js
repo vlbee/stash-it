@@ -8,7 +8,7 @@ export const getLocation = () => {
     )
   } else {
     return new Promise(
-      resolve => resolve({})
+      reject => reject(new Error('Geolocation data not available'))
     )
   }
 }
