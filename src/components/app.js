@@ -114,7 +114,7 @@ class App extends Component {
     const query = this.state.query;
     const prevQuery = prevState.query;
     if (Object.keys(query).length !== Object.keys(prevQuery).length) {
-      this.fetchRequest(this.state.query).then(data => {
+      fetchRequest(this.state.query).then(data => {
         this.setState({ stashpoints: data });
       })
     }
