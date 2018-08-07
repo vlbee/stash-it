@@ -3,12 +3,12 @@ export const getLocation = () => {
     return new Promise(
       (resolve, reject) => navigator.geolocation.getCurrentPosition(resolve, reject, {
         enableHighAccuracy: true,
-        timeout: 6000
+        timeout: 5000
       })
     )
   } else {
     return new Promise(
-      resolve => resolve({})
+      reject => reject(new Error('Geolocation data not available'))
     )
   }
 }
