@@ -15,7 +15,9 @@ class App extends Component {
         by_distance: "desc",
       },
       // Loader will show whenever state.stashpoints is null
-      stashpoints: null
+      stashpoints: null,
+      // errMsg will show if not null
+      errMsg: null
     };
   }
 
@@ -44,8 +46,28 @@ class App extends Component {
           this.setState({ stashpoints: data });
         })
       }).catch(error => {
-        // TODO - Refactor to pass error message to user
-        console.log(error)
+        // TODO refactor error handling into module
+        const errorName = Object.getPrototypeOf(error).constructor.name;
+
+        this.setState(prevState => {
+          if (errorName === 'PositionError') {
+            return {
+              query: prevState.query,
+              stashpoints: prevState.stashpoints,
+              errMsg: `Error: ${error.message}.\nThere was an error establishing your geolocation.\nPlease refresh the page to try again.`
+            };
+          } else if (errorName === 'FetchError') {
+            console.log(error)
+            return {
+              query: prevState.query,
+              stashpoints: prevState.stashpoints,
+              errMsg: 'Oops! We seem to be experiencing a problem. Please try again later.'
+            };
+          } else {
+            console.log('else:', error)
+          }
+        });
+        console.log(this.state)
       })
   }
 
@@ -99,8 +121,13 @@ class App extends Component {
     return (
       <div className="app" >
         <Header handle247={this.handle247} />
-        {(this.state.stashpoints === null) ? (<div className="loader" />) :
-          (<Mapview stashpoints={this.state.stashpoints} lat={this.state.query.centre_lat} long={this.state.query.centre_lon}></Mapview>)}
+        {
+          (this.state.errMsg !== null)
+            ? (<h5 className="error-message">{this.state.errMsg}</h5>)
+            : ((this.state.stashpoints === null)
+              ? (<div className="loader" />)
+              : (<Mapview stashpoints={this.state.stashpoints} lat={this.state.query.centre_lat} long={this.state.query.centre_lon}></Mapview>))
+        }
       </div>
     )
   }
