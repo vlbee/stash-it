@@ -25,7 +25,6 @@ class App extends Component {
     // https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html
     this._asyncRequest = getLocation().then(
       position => {
-        console.log({ position })
         this._asyncRequest = null;
         if (position.coords) {
           this.setState(prevState => {
@@ -50,14 +49,13 @@ class App extends Component {
       }).catch(error => {
         // TODO refactor error handling into module
         const errorName = Object.getPrototypeOf(error).constructor.name;
-        console.log(error)
-        console.log(errorName)
+
         this.setState(prevState => {
           if (errorName === 'PositionError') {
             return {
               query: prevState.query,
               stashpoints: prevState.stashpoints,
-              errMsg: 'There was an error establishing your geolocation. Please refresh the page to try again.'
+              errMsg: `Error: ${error.message}.\nThere was an error establishing your geolocation.\nPlease refresh the page to try again.`
             };
           } else if (errorName === 'FetchError') {
             console.log(error)
