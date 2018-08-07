@@ -3,9 +3,7 @@ const checkFetchResponse = res => {
     let result = res.json();
     return result;
   } else {
-    console.error(
-      `Error with fetch request. Response: ${res.status}`
-    );
+    throw new Error(`Error with fetch request. Response: ${res.status}`)
   }
 };
 

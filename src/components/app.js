@@ -42,7 +42,6 @@ class App extends Component {
           alert('Geolocation is not supported by this browser.');
         }
       }).then(() => {
-        (console.log("fetching"))
         fetchRequest(this.state.query).then(data => {
           this.setState({ stashpoints: data });
         })
